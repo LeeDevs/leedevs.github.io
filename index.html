@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Etheria</title>
+
+    <link rel="icon" type="image/x-icon" href="/Bootstrap/assets/favicon.ico">
 
 
     <!-- 
@@ -17,8 +19,52 @@
 </head>
 <body>
 
-    <h1>This is the home page.</h1>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./Bootstrap/assets/crown.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        
+          </a>
+        </div>
+    </nav>
 
+
+    <div class="container my-5">
+        <h1 class="display-1 text-center">Login.</h1>
+        <div class="row justify-content-center">
+            <form class="col-lg-4">
+
+                <div class="mb-3">
+                    <label for="EmailInput" class="form-label">Email address</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email"id="EmailInput" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                
+                
+        
+                <div class="mb-3">
+                    <label for="PasswordInput" class="form-label">Password</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">*</span>
+                        <input type="password" id="PasswordInput" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Continue</button>
+            </form>
+        </div>
+        
+    </div>
+
+
+    
+        
+    
+    
+
+    
 
     <!--
         SCRIPT LINKS
