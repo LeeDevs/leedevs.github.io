@@ -205,7 +205,7 @@ var _Init = function () {
   mat4.identity(worldMatrix);
 
 
-  mat4.lookAt(viewMatrix, [0, 0, 0], [0, 0, 0,], [0, 1, 0]);
+  mat4.lookAt(viewMatrix, [0, 0, 10], [0, 0, 0,], [0, 1, 0]);
 
 
   mat4.perspective(projMatrix, glMatrix.glMatrix.toRadian(45), canvas.width / canvas.height, 0.1, 1000.0)
