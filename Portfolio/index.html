@@ -6,14 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">    
+    <!-- Link to favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">   
+
+    <!-- Link to CSS-->
     <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <!-- Link to Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
     
 </head>
 <body>
+    
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Aidan</a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="./assets/images/portfolio.jpg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Aidan</span></h2>
+                <p>
+                    I'm an aspiring <span class="color">Developer</span>
+                    <br> using mainly <span class="color">Python</span>
+                </p>
+                <div class="social">
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Link to Javascript -->
     <script src="./src/index.js"></script>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, doloribus!</p>
+
     
 </body>
 </html>
