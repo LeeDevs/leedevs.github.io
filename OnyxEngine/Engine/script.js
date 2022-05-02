@@ -46,7 +46,7 @@ var _Init = function () {
     alert('Your Browser Does Not Support WebGL')
   }
 
-  gl.clearColor(0.9, 0.1, 0.1, 1.0)
+  gl.clearColor(0,0,0,0.94)
   gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
   gl.enable(gl.DEPTH_TEST);
   gl.enable(gl.CULL_FACE);
@@ -232,7 +232,7 @@ var _Init = function () {
     mat4.mul(worldMatrix, yRotationMatrix, xRotationMatrix);
     gl.uniformMatrix4fv(matWorldUniformLocation, gl.FALSE, worldMatrix);
 
-    gl.clearColor(0.1, 0.1, 0.1, 1.0)
+    gl.clearColor(0,0,0,0.94)
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
     gl.drawElements(gl.TRIANGLES, boxIndices.length, gl.UNSIGNED_SHORT, 0);
     requestAnimationFrame(loop);
