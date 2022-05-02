@@ -46,7 +46,7 @@ var _Init = function () {
     alert('Your Browser Does Not Support WebGL')
   }
 
-  gl.clearColor(0.1, 0.1, 0.1, 1.0)
+  gl.clearColor(0.9, 0.1, 0.1, 1.0)
   gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
   gl.enable(gl.DEPTH_TEST);
   gl.enable(gl.CULL_FACE);
